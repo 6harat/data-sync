@@ -1,0 +1,15 @@
+{
+  "name": "data-sync",
+  "version": "1.0.0",
+  "description": "utitlity to sync data between two devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "tracer": "^0.8.9"
+  }
+}
