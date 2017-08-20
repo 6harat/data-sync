@@ -4,12 +4,21 @@
   "description": "utitlity to sync data between two devices",
   "main": "index.js",
   "scripts": {
+    "start": "node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^8.0.23",
+    "@types/uuid": "^3.4.0",
     "express": "^4.15.3",
-    "tracer": "^0.8.9"
+    "immutable": "^3.8.1",
+    "tracer": "^0.8.9",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.3.0"
   }
 }
